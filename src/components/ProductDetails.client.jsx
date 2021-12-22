@@ -63,7 +63,7 @@ function SizeChart() {
         className="text-xl text-black font-semibold mt-8 mb-4"
         id="size-chart"
       >
-        Size Chart
+        Get the perfect fit
       </h3>
       <table className="min-w-full table-fixed text-sm text-center bg-white">
         <thead>
@@ -153,7 +153,7 @@ export default function ProductDetails({product}) {
                       href="#size-chart"
                       className="block underline text-gray-500 text-sm tracking-wide my-4"
                     >
-                      Size Chart
+                      Get the perfect fit
                     </a>
                   ) : null;
                 }}

@@ -1,6 +1,7 @@
 import {ShopifyServerProvider, DefaultRoutes} from '@shopify/hydrogen';
 import {Switch} from 'react-router-dom';
 import {Suspense} from 'react';
+import Measuring from './pages/pages/Measuring';
 
 import shopifyConfig from '../shopify.config';
 
@@ -21,7 +22,7 @@ export default function App({...serverState}) {
             <DefaultRoutes
               pages={pages}
               serverState={serverState}
-              fallback={<NotFound />}
+              fallback={<Measuring />}
             />
           </Switch>
         </CartProvider>
